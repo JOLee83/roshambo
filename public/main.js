@@ -7,20 +7,20 @@ const checkWinner = () => {
   console.log("check winner works");
     if (oneChoice !== "" && twoChoice !== "") {
 
-      if ((oneChoice === "rock" && twoChoice === "scissor") ||
+      if ((oneChoice === "rock" && twoChoice === "scissors") ||
          (oneChoice === "paper" && twoChoice === "rock") ||
-         (oneChoice === "scissor" && twoChoice === "paper")) {
+         (oneChoice === "scissors" && twoChoice === "paper")) {
            whoWon.textContent = "PLAYER 1 WINS!!!"
       }
 
       if ((oneChoice === "rock" && twoChoice === "paper") ||
          (oneChoice === "paper" && twoChoice === "scissors") ||
-         (oneChoice === "scissor" && twoChoice === "rock")) {
+         (oneChoice === "scissors" && twoChoice === "rock")) {
           whoWon.textContent = "PLAYER 2 WINS!!!"
       }
       if ((oneChoice === "rock" && twoChoice === "rock") ||
          (oneChoice === "paper" && twoChoice === "paper") ||
-         (oneChoice === "scissor" && twoChoice === "scissor")) {
+         (oneChoice === "scissors" && twoChoice === "scissors")) {
           whoWon.textContent = "IT'S A TIE"
       }
     }

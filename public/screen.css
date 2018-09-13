@@ -58,6 +58,10 @@ img {
     background-color: white;
     background-image: none;
     border: 1px dashed black;
+    height: 100px;
+    color: black;
+    font-size: 1.25rem;
+    line-height: 1.25;
 
   }
   aside {
@@ -75,5 +79,8 @@ img {
     font-size: 2rem;
     background-size:100%;
     background-repeat: no-repeat;
+  }
+  .thewinneris {
+    margin-top: 100px;
   }
 }
