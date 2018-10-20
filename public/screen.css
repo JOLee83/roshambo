@@ -1,86 +1,83 @@
 @import url('https://fonts.googleapis.com/css?family=Rock+Salt');
 
 html {
-  height: 100%;
+	height: 100%;
 }
 
 body {
-  font-family: 'Rock Salt', cursive;
-  background-image: url(./img/backgroundroshambo.jpg);
-  color: white;
+	font-family: 'Rock Salt', cursive;
+	background-image: url(./img/backgroundroshambo.jpg);
+	color: white;
 }
 footer {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 h2 {
-  height: 5px;
-  text-align: center;
+	height: 5px;
+	text-align: center;
 }
-h1, h3 {
-  text-align: center;
-  height: 60px;
+h1,
+h3 {
+	text-align: center;
+	height: 60px;
 }
 main {
-  display: flex;
-  justify-content: center;
-
+	display: flex;
+	justify-content: center;
 }
 aside {
-  display: flex;
-  flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 button {
-  margin: 10px 20px 10px 20px;
-  font-family: 'Rock Salt', cursive;
-  background-image: url(./img/backgroundroshambo.jpg);
-  border: 2px dashed white;
-  color: white;
-  border-radius: 10px;
-  font-weight: bold;
-  height: 50px;
+	margin: 10px 20px 10px 20px;
+	font-family: 'Rock Salt', cursive;
+	background-image: url(./img/backgroundroshambo.jpg);
+	border: 2px dashed white;
+	color: white;
+	border-radius: 10px;
+	font-weight: bold;
+	height: 50px;
 }
 img {
-  display: none;
+	display: none;
 }
 @media (min-width: 800px) {
-  img {
-    display: flex;
-    width: 85px;
-
-  }
-  p {
-    display: none;
-      )
-  }
-  button {
-    width: 100px;
-    background-color: white;
-    background-image: none;
-    border: 1px dashed black;
-    height: 100px;
-    color: black;
-    font-size: 1.25rem;
-    line-height: 1.25;
-
-  }
-  aside {
-    flex-direction: row;
-    border: 2px dashed white;
-    border-radius: 10px;
-  }
-  .pt aside {
-    margin-left: 5px;
-  }
-  .ot aside {
-    margin-right: 5px;
-  }
-  body {
-    font-size: 2rem;
-    background-size:100%;
-    background-repeat: no-repeat;
-  }
-  .thewinneris {
-    margin-top: 100px;
-  }
+	img {
+		display: flex;
+		width: 85px;
+	}
+	p {
+		display: none;
+	}
+	button {
+		width: 100px;
+		background-color: white;
+		background-image: none;
+		border: 1px dashed black;
+		height: 100px;
+		color: black;
+		font-size: 1.25rem;
+		line-height: 1.25;
+	}
+	aside {
+		flex-direction: row;
+		border: 2px dashed white;
+		border-radius: 10px;
+	}
+	.pt aside {
+		margin-left: 5px;
+	}
+	.ot aside {
+		margin-right: 5px;
+	}
+	body {
+		font-size: 2rem;
+		background-size: 100%;
+		background-repeat: no-repeat;
+	}
+	.thewinneris {
+		margin-top: 100px;
+	}
 }
